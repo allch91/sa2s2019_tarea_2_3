@@ -31,5 +31,22 @@ namespace MiSeUser
         {
             return "Debe retornar si existe un piloto disponible";
         }
+
+        [WebMethod]
+        public bool Register(string user_id, string user_secret, string user_phone)
+        {
+            try
+            {
+                /*
+                 * Attempt to save new user
+                 * Check not-existent user
+                 */
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }
