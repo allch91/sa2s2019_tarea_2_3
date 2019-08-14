@@ -32,6 +32,13 @@ namespace MiSeUser
             return "Debe retornar si existe un piloto disponible";
         }
 
+        /*
+         * Método Register realiza el registro de un nuevo usuario
+         * Parámetros:
+         * string user_id: usuario nuevo
+         * string user_secret: contraseña del nuevo usuario
+         * string user_phone: número de teléfono del nuevo usuario
+         */
         [WebMethod]
         public bool Register(string user_id, string user_secret, string user_phone)
         {
