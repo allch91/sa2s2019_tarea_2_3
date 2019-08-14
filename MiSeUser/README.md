@@ -8,6 +8,8 @@ MicroServicio encargado de la lógica de solicitud de servicio del usuario.
 
 #### Description
 
+Envío de datos necesarios para que el piloto pueda recibir la solicitud: el usuario solicitante, número de teléfono de contacto, la ubicación del cliente.
+
 - Parameters
 
     - string user_id : usuario que solicita el servicio
