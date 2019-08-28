@@ -27,9 +27,10 @@ namespace MiSeUser
          */
 
         [WebMethod]
-        public string Request(string user_id, string user_phone, int user_pos_x, int user_pos_y, int user_pos_z)
+        public string Request(string user_id, string user_phone, int [] user_pos_init, int [] user_pos_end)
         {
-            return "Debe retornar si existe un piloto disponible";
+            //UserRequest newRequest = new UserRequest(user_id, user_phone, user_pos_x, user_pos_y, user_pos_z);
+            return "hola: " + user_id + " num: " + user_phone;
         }
 
         /*

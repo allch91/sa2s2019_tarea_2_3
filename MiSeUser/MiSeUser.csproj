@@ -76,6 +76,7 @@
       <DependentUpon>ServiceRequest.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
